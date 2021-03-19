@@ -20,14 +20,14 @@ router.put("/api/workouts/:id", (req, res) => {
   Workout
     .findByIdAndUpdate(req.params.id, {
       $push: {
-        exercise: newExercise,
+        exercises: newExercise,
       }
     })
     .then((workout) => {
       res.json(workout);
     })
     .catch((err) => {
-      res.status().json(err);
+      res.status(500).json(err);
     });
   }
 );
@@ -45,7 +45,10 @@ router.post("/api/workouts", (req, res) => {
 );
 
 router.get("/api/workouts/range", (req, res) => {
-
+  Workout
+  .find()
+  .then()
+  .catch();
 });
 
 module.exports = router;
