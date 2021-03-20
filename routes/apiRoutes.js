@@ -10,6 +10,7 @@ router.get("/api/workouts", (req, res) => {
   }
 );
 
+//making one exercise and adding it to the list inside workout object route
 router.put("/api/workouts/:id", (req, res) => {
   const newExercise = req.body;
 
@@ -24,6 +25,7 @@ router.put("/api/workouts/:id", (req, res) => {
   }
 );
 
+//making workout object route
 router.post("/api/workouts", (req, res) => {
   Workout
     .create(req.body)
@@ -32,6 +34,7 @@ router.post("/api/workouts", (req, res) => {
   }
 );
 
+//getting range for stats page
 router.get("/api/workouts/range", (req, res) => {
   Workout
   .find().limit(7)
