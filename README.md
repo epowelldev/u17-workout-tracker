@@ -10,7 +10,7 @@ The application tracks your workouts you enter, and then displays the past 7 day
 You can start a workout, and then add exersices to that workout as resistance or cardio training, with duration, reps, weight, and/or distance.
 
 ### Img of Heroku Deployment
-![Image of Deployed Application](./assets/heroku-deploy.png "Deployed Screenshot")
+![Image of Deployed Application](./img/heroku-deploy.png "Deployed Screenshot")
 
 ### Links
 
