@@ -14,6 +14,6 @@ You can start a workout, and then add exersices to that workout as resistance or
 
 ### Links
 
-[Deployed Application](https://u17-workout-tracker.herokuapp.com/)
+[Deployed Application](https://u17-workout-traker.herokuapp.com/)
 
 [GitHub Repo](https://github.com/epowelldev/u17-workout-tracker)

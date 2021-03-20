@@ -38,7 +38,7 @@ router.post("/api/workouts", (req, res) => {
 router.get("/api/workouts/range", (req, res) => {
   Workout
   .find().limit(7)
-  .then(workouts => { res.json(workouts); })
+  .then(workouts => { res.json(workouts); console.log(workouts); })
   .catch((err) => { res.status(500).json(err); });
 });
 
